@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    @apply m-0 antialiased text-slate-600 dark:text-slate-400;
+    @apply bg-slate-50 dark:bg-slate-950;
+  }
+
+  #root {
+    @apply mx-auto flex min-h-svh w-full max-w-[1126px] flex-col border-x border-slate-200 dark:border-slate-800;
+  }
+}
