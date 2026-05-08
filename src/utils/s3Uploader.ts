@@ -126,10 +126,11 @@ export async function uploadFileToS3({
   const response = await cloudWatch.send(command)
   console.log(response)
 
+  const uploadOutput = result as { ETag?: string; Location?: string }
   return {
     bucket,
     key,
-    etag: (result as any).ETag,
-    location: (result as any).Location,
+    etag: uploadOutput.ETag,
+    location: uploadOutput.Location,
   }
 }
