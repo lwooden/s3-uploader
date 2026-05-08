@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState, useEffect } from "react";
+import { useMemo, useRef, useState } from "react";
 import { getS3UploaderEnv, type S3UploaderEnv } from "../utils/env";
 import { defaultObjectKey, joinS3Key } from "../utils/key";
 import {
