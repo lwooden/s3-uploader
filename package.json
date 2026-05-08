@@ -18,8 +18,10 @@
     "@aws-sdk/lib-storage": "^3.1026.0",
     "install": "^0.13.0",
     "npm": "^11.12.1",
+    "oidc-spa": "^10.2.3",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
